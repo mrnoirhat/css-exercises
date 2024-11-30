@@ -1,0 +1,55 @@
+/*stylesheet*/
+* {
+    font-family: Helvetica, "Times New Roman", serif;
+    margin: 5px;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.text, p {
+    font-size: 16px;
+    text-align: left;
+}
+
+.images {
+    height: 100px;
+    width: 100px;
+}
+
+.images.example {
+    height: 50px;
+    width: auto;
+}
+
+div .images {
+    padding: 1.5px;
+    margin: 1.5px;
+    background-color: #ffbdaa;
+}
+
+.container .red {
+    background-color: #ff0000;
+}
+
+.container .purple {
+    background-color: #9900ff;
+}
+
+.container .green {
+    background-color: #00ff0044;
+}
+
+.container .yellow {
+    background-color: #dbee0a;
+}
+
+.canvas_case {
+    height: 50px;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: 50px;
+}
